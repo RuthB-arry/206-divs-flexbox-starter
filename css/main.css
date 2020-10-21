@@ -107,6 +107,14 @@ body {
   font-size: 1.25em;
   height: 100%;
 }
+ 
+header, .sub-header, .footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+}
+
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
